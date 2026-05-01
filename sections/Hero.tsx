@@ -51,14 +51,20 @@ export default function Hero() {
   
             <div className="flex flex-wrap gap-5">
   
-              <button className="bg-blue-600 hover:bg-blue-700 transition-all duration-300 px-8 py-4 rounded-2xl text-lg font-semibold shadow-lg shadow-blue-500/30 hover:scale-105 hover:-translate-y-1 hover:-translate-y-1">
+            <a
+                href="https://wa.me/918412064040"
+                target="_blank"
+                className="bg-blue-600 hover:bg-blue-700 transition-all duration-300 px-8 py-4 rounded-2xl text-lg font-semibold shadow-lg shadow-blue-500/30 hover:scale-105 hover:-translate-y-1 inline-block"
+            >
                 Schedule Consultation
-              </button>
+            </a>
   
-              <button className="border border-slate-700 bg-white/5 backdrop-blur-sm hover:border-white transition-all duration-300 px-8 py-4 rounded-2xl text-lg hover:scale-105 hover:-translate-y-1">
+            <a
+                href="#services"
+                className="border border-slate-700 bg-white/5 backdrop-blur-sm hover:border-white transition-all duration-300 px-8 py-4 rounded-2xl text-lg hover:scale-105 hover:-translate-y-1 inline-block"
+            >
                 Explore Services
-              </button>
-  
+            </a>
             </div>
   
           </div>

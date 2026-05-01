@@ -17,9 +17,12 @@ export default function CTA() {
   
           </div>
   
-          <button className="bg-white text-blue-600 hover:scale-105 transition-all duration-300 px-8 py-5 rounded-2xl text-lg font-bold shadow-2xl">
+          <a
+            href="#contact"
+            className="bg-white text-blue-600 hover:scale-105 transition-all duration-300 px-8 py-5 rounded-2xl text-lg font-bold shadow-2xl inline-block"
+          >
             Schedule Consultation
-          </button>
+          </a>
   
         </div>
   

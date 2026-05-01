@@ -68,9 +68,13 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Button */}
-        <button className="hidden md:block bg-slate-900 hover:bg-black text-white px-6 py-3 rounded-2xl font-medium shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300">
-          Consultation
-        </button>
+        <a
+            href="https://wa.me/918412064040"
+            target="_blank"
+            className="hidden md:block bg-slate-900 hover:bg-black text-white px-6 py-3 rounded-2xl font-medium shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 inline-block"
+        >
+            Consultation
+        </a>
 
         {/* Mobile Menu Button */}
         <button
