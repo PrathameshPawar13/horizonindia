@@ -8,15 +8,17 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Horizon India | HR & Industrial Relations Consulting",
+
   description:
-    "Strategic HR, labour law compliance, payroll, staffing, and industrial relations consulting solutions across India.",
+    "Strategic HR consulting, payroll management, labour law compliance, industrial relations, staffing, and workforce solutions across India.",
 
   keywords: [
     "HR consulting India",
-    "Industrial relations consulting",
     "Payroll compliance",
-    "Factory compliance",
-    "Labour law consulting",
+    "Industrial relations consulting",
+    "Labour law compliance",
+    "Factory compliance services",
+    "Staffing solutions India",
   ],
 };
 

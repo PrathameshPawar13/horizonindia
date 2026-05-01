@@ -9,6 +9,8 @@ import Stats from "../sections/Stats";
 import Director from "../sections/Director";
 import Contact from "../sections/Contact";
 import Testimonials from "../sections/Testimonials";
+import Industries from "../sections/Industries";
+import CTA from "../sections/CTA";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
 
       <Services />
 
+      <Industries />
+
       <Stats />
 
       <Director />
@@ -29,6 +33,8 @@ export default function Home() {
       <Testimonials />
 
       <FAQ />
+
+      <CTA />
 
       <Contact />
 

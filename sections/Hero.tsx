@@ -37,7 +37,7 @@ export default function Hero() {
   
             </div>
   
-            <h1 className="text-5xl lg:text-7xl font-bold leading-[1.1] mb-8">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1] mb-8">
               Strategic HR &
               <span className="text-blue-400"> Industrial Relations </span>
               Solutions

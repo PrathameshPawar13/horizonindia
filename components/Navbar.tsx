@@ -9,16 +9,20 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b border-slate-200/50 bg-white/80 backdrop-blur-xl">
 
-      <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
 
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-4">
 
-        <Image
-            src="/logo.png"
-            alt="Horizon India"
-            width={42}
-            height={42}
-        />
+        <div className="relative w-10 h-10 lg:w-12 lg:h-12">
+
+            <Image
+                src="/logo.png"
+                alt="Horizon India"
+                width={42}
+                height={42}
+                className="object-contain"
+                priority
+            />
 
       </div>
 
