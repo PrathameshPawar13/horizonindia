@@ -18,7 +18,7 @@ export default function CTA() {
           </div>
   
           <a
-            href="#contact"
+            href="https://calendly.com/kunal-pawar357/30minutes"
             className="bg-white text-blue-600 hover:scale-105 transition-all duration-300 px-8 py-5 rounded-2xl text-lg font-bold shadow-2xl inline-block"
           >
             Schedule Consultation

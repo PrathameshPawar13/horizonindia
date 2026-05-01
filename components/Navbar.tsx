@@ -69,7 +69,7 @@ export default function Navbar() {
 
         {/* Desktop Button */}
         <a
-            href="https://wa.me/918412064040"
+            href="https://calendly.com/kunal-pawar357/30minutes"
             target="_blank"
             className="hidden md:block bg-slate-900 hover:bg-black text-white px-6 py-3 rounded-2xl font-medium shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 inline-block"
         >
