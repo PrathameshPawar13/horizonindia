@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="absolute inset-0 opacity-20">
 
             <Image
-                src="/hero.png"
+                src="/images/hero.png"
                 alt="Hero Background"
                 fill
                 className="object-cover"
@@ -51,11 +51,11 @@ export default function Hero() {
   
             <div className="flex flex-wrap gap-5">
   
-              <button className="bg-blue-600 hover:bg-blue-700 transition-all duration-300 px-8 py-4 rounded-2xl text-lg font-semibold shadow-lg shadow-blue-500/30 hover:scale-105">
+              <button className="bg-blue-600 hover:bg-blue-700 transition-all duration-300 px-8 py-4 rounded-2xl text-lg font-semibold shadow-lg shadow-blue-500/30 hover:scale-105 hover:-translate-y-1 hover:-translate-y-1">
                 Schedule Consultation
               </button>
   
-              <button className="border border-slate-700 bg-white/5 backdrop-blur-sm hover:border-white transition-all duration-300 px-8 py-4 rounded-2xl text-lg hover:scale-105">
+              <button className="border border-slate-700 bg-white/5 backdrop-blur-sm hover:border-white transition-all duration-300 px-8 py-4 rounded-2xl text-lg hover:scale-105 hover:-translate-y-1">
                 Explore Services
               </button>
   
